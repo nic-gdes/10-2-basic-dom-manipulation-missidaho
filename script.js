@@ -8,10 +8,14 @@ title.textContent = "Meet The Nice T. Rex!";
 
 // 3. Use querySelector to create a variable that contains the dinosaur image, and change the src to "./images/cute-dino.jpeg" so he doesn't look so mean. You can change an item's src by just calling the src method (item.src = "new_src";)
 var linkElement = document.querySelector('dino-img');
+// window.location.href = "./images/cute-dino.jpeg";
+// window.location.replace("./image/cute-dino.jpeg")
 
 
 console.log("Hello World");
 // 4. Use querySelector to create a variable for the document body, and change the background color to something less harsh and intense.
+var background = document.body
+background.style.backgroundColor = 'lightgreen';
 
 // 5. Modify the following array to add at least 3 facts about the T. Rex that aren't so frightening. They don't need to be real facts.
 
