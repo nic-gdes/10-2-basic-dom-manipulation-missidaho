@@ -8,9 +8,11 @@ title.textContent = "Meet The Nice T. Rex!";
 
 // 3. Use querySelector to create a variable that contains the dinosaur image, and change the src to "./images/cute-dino.jpeg" so he doesn't look so mean. You can change an item's src by just calling the src method (item.src = "new_src";)
 
-var linkElement = document.querySelector('dino-img');
-// window.location.href = "./images/cute-dino.jpeg";
-// window.location.replace("./image/cute-dino.jpeg")
+const linkElement = document.querySelector('#dino-img');
+// location.href.replace = "./images/cute-dino.jpeg";
+//location.replace("./image/cute-dino.jpeg")
+// img.scr = "./images/cute-dino.jpeg";
+linkElement.src = "./images/cute-dino.jpeg";
 
 
 console.log("Hello World");
